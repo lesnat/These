@@ -1,4 +1,4 @@
-# Thèse de doctorat
+# Thèse de doctorat
 
 Ce dépôt contient les images et les fichiers sources LaTeX de ma thèse de doctorat soutenue à l'Université de Bordeaux en 2021, et qui est disponible à l'adresse : [https://tel.archives-ouvertes.fr/tel-03204457](https://tel.archives-ouvertes.fr/tel-03204457).
 
