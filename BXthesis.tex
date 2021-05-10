@@ -1,0 +1,114 @@
+% This is free and unencumbered software released into the public domain.
+% 
+% Anyone is free to copy, modify, publish, use, compile, sell, or
+% distribute this software, either in source code form or as a compiled
+% binary, for any purpose, commercial or non-commercial, and by any
+% means.
+% 
+% For more information, please refer to <http://unlicense.org/>
+
+
+
+% Permet de formater la liste des examinateurs
+\newcommand{\BXexam}[5]{#1 \textsc{#2} \dotfill & #3, #4 \dotfill & #5 \\}
+
+% Produit la page de garde et définit le style du reste du document (en-têtes,…)
+\newcommand{\BXcouverture}{
+	\pagestyle{empty}
+	\newgeometry{marginratio=1:1,vmarginratio=1:1}
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{-96pt}
+			\hspace*{-36pt} \logos \\
+			\vfill
+			\Huge  {\bf THÈSE}
+			\vfill
+			\large PRÉSENTÉE À
+			\vfill
+			\huge  {\bf L'UNIVERSITÉ DE BORDEAUX}
+			\vfill
+			\Large ÉCOLE DOCTORALE {\BXed}
+			\vfill
+			\Large par {\bf {\BXnom}}
+			\vfill
+			\Large POUR OBTENIR LE GRADE DE
+			\vfill
+			\LARGE {\bf DOCTEUR}
+			\vfill
+			\large SPÉCIALITÉ : {\BXspe}
+			\vfill
+			\rule{4em}{1pt}
+			\vfill
+			\Large {\bf {\BXsujet}}
+			\vfill
+			\rule{4em}{1pt}
+		\end{center}
+		\vfill
+		\noindent {\bf Date de soutenance :} \quad \BXdate
+		\vfill
+		\noindent {\bf Devant la commission d'examen composée de :} \\
+		\begin{tabular}{lll@{}}
+			\BXexamlist
+		\end{tabular}
+		\vfill
+		\centering
+		\large \rule[0.2em]{0.5em}{1pt} ~{\BXannee}~ \rule[0.2em]{0.5em}{1pt}
+	\end{titlepage}
+	\restoregeometry
+	\cleardoublepage
+	
+	\pagestyle{fancy}
+	
+	\renewcommand{\footrulewidth}{0.4pt}
+	\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ ##1}{}}
+	\renewcommand{\sectionmark}[1]{\markright{\thesection.\ ##1}}
+	
+	\fancyhead[LE]{}
+	\fancyhead[RE]{\slshape \rightmark}
+	\fancyhead[LO]{\slshape \leftmark}
+	\fancyhead[RO]{}
+	
+	\fancyfoot[C]{}
+	\fancyfoot[LE]{\thepage}
+	\fancyfoot[RE]{\BXnomcourt}
+	\fancyfoot[LO]{\BXsujetcourt}
+	\fancyfoot[RO]{\thepage}
+	
+	\paragraph*{Résumé} \BXresume
+	
+	\paragraph*{Mots-clés} \BXmotscles
+	
+	\paragraph*{Laboratoire d'accueil} \BXlabo
+	
+	\newpage
+	
+	\paragraph*{Title} \BXtitle
+	
+	\paragraph*{Abstract} \BXabstract
+	
+	\paragraph*{Keywords} \BXkeywords
+	
+}
+
+% Logos
+\newcommand{\logos}{\includegraphics[width=\linewidth]{logos.png}}
+
+% Commandes à redéfinir :
+%% Page de garde
+\newcommand{\BXed}{}
+\newcommand{\BXspe}{}
+\newcommand{\BXnom}{}
+\newcommand{\BXsujet}{}
+\newcommand{\BXannee}{}
+\newcommand{\BXdate}{}
+\newcommand{\BXexamlist}{}
+%% Pages liminaires
+\newcommand{\BXresume}{}
+\newcommand{\BXtitle}{}
+\newcommand{\BXabstract}{}
+\newcommand{\BXmotscles}{}
+\newcommand{\BXkeywords}{}
+\newcommand{\BXlabo}{}
+%% En-têtes
+\newcommand{\BXnomcourt}{}
+\newcommand{\BXsujetcourt}{}

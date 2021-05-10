@@ -1,0 +1,307 @@
+\documentclass[11pt]{book}
+
+% Marges possibles pour format A4 (PDF / papier)
+%\usepackage[bindingoffset=0pt,width=14cm,height=22cm,marginratio=1:1,vmarginratio=1:1]{geometry}
+%\usepackage[width=14cm,height=22cm]{geometry}
+%\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+
+% Aides pour la structuration des fichiers :
+%   https://www.overleaf.com/learn/latex/Management_in_a_large_project
+%   
+
+% Encodage des caractères et gestion du français
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% Gestion de la bibliographie
+% https://www.overleaf.com/learn/latex/Biblatex_citation_styles
+% https://tex.stackexchange.com/questions/69028/set-limit-to-one-author-when-using-et-al-in-biblatex
+\usepackage[style=authoryear, maxbibnames=20, maxcitenames=2, sorting=nyt]{biblatex}
+\addbibresource{these.bib}
+
+% Permet de faire une table des matières par chapitre
+\usepackage[french]{minitoc}
+
+% Gère les en-têtes et les pieds de page
+\usepackage{fancyhdr}
+\setlength{\headheight}{15pt}
+
+% Hyperliens et coloration éventuelle (PDF / papier)
+\usepackage{tikz} % Pourquoi il y a besoin de tikz ?
+\usepackage[colorlinks,urlcolor=magenta,linkcolor=purple,citecolor=teal]{hyperref}
+%\usepackage[colorlinks,urlcolor=black,linkcolor=black,citecolor=black]{hyperref}
+
+% Pour utiliser des symboles et environnements mathématiques
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+% Insérer des figures
+\usepackage{graphicx}
+
+% Pour utiliser les blocs comment
+\usepackage{comment}
+
+% Pour utiliser les subfigure
+\usepackage{subcaption}
+
+% Pour importer les chapitres.tex
+\usepackage{import}
+
+% Insérer du code
+%\usepackage{minted}
+%\usemintedstyle{friendly}
+
+% Environnement enumerate customisé
+\usepackage{enumitem}
+
+% Gestion des unités physiques
+\usepackage{siunitx}
+\DeclareSIUnit\PW{PW}
+\DeclareSIUnit\TW{TW}
+\DeclareSIUnit\nc{n_c}
+\DeclareSIUnit\rad{rad}
+\DeclareSIUnit\c{c}
+
+%%%
+
+% Permet d'épeler une formule mathématique dans un titre de chapitre/section,
+% afin de ne pas rompre les hyperliens dans le PDF final.
+\newcommand{\mname}{\texorpdfstring}
+% ex: \chapter{Propriétés du système de réécriture \mname{$\to_\beta$}{b-red}}
+
+% Utiliser ces commandes au lieu de chapter* ou section* pour des chapitres
+% non-numérotés figurant dans la table des matières (par ex. intro/conclu).
+\newcommand{\uchapter}[1]{
+	\chapter*{#1}
+	\addcontentsline{toc}{chapter}{#1}
+	\markboth{#1}{}
+}
+
+\newcommand{\usection}[1]{
+	\section*{#1}
+	\addcontentsline{toc}{section}{#1}
+	\markright{#1}
+}
+
+%% AJOUTEZ ICI VOS PROPRES COMMANDES
+
+% % Locutions étrangères et abréviations.
+\newcommand{\loce}[1]{\textit{#1}}
+\newcommand{\eg}{\loce{e.g.\ }}
+\newcommand{\ie}{\loce{i.e.\ }}
+\newcommand{\cf}{\loce{cf.\ }}
+\makeatletter
+\newcommand{\sdot}{\@ifnextchar.{}{.}}
+\makeatother
+\newcommand{\etc}{\loce{etc}\sdot}
+
+% \newcommand{\set}[1]{\left\lbrace #1 \right\rbrace}
+% ...
+
+%%%
+
+\input{BXthesis}
+% Ce fichier contient les commandes nécessaires pour produire la page de garde
+% ainsi que les pages liminaires (hors remerciements). Son contenu est déterminé
+% par la définition des commandes suivantes :
+
+% École doctorale
+\renewcommand{\BXed}{SCIENCES PHYSIQUES ET DE L'INGÉNIEUR}
+
+% Spécialité
+\renewcommand{\BXspe}{ASTROPHYSIQUE, PLASMAS, NUCLÉAIRE}
+
+% Nom du candidat
+\renewcommand{\BXnom}{Léo Esnault}
+
+% Sujet de la thèse
+\renewcommand{\BXsujet}{Production de photons gamma \\lors de l'interaction laser-matière \\et création de paires électron-positron \\par collision de photons}
+
+% Année de soutenance
+\renewcommand{\BXannee}{2021}
+
+% Date de la soutenance
+\renewcommand{\BXdate}{17 Mars 2021}
+
+% Composition du jury de thèse
+\renewcommand{\BXexamlist}{
+	\BXexam{Caterina}{Riconda}{Prof. des Universités}{LULI}{Rapporteure}
+	\BXexam{Fabien}{Quéré}{Chercheur CEA}{LYDIL}{Rapporteur}
+	\BXexam{Fazia}{Hannachi}{Directrice de Recherche CNRS}{CENBG}{Présidente}
+	\BXexam{Thomas}{Grismayer}{Chargé de Recherche}{GoLP}{Examinateur}
+	\BXexam{Xavier}{Ribeyre}{Chercheur CEA}{CELIA/CEA CESTA}{Directeur}
+	\BXexam{Emmanuel}{d'Humières}{Prof. des Universités}{CELIA/Univ. Bordeaux}{Co-directeur}
+	%\BXexam{Prénom}{Nom}{Titre}{Rôle}
+}
+%Titre: Maître de conférences, Professeur des universités, Chargé de recherche…
+%Rôle: Président (du jury), Directeur, Co-directeur, Rapporteur, Examinateur…
+
+% Contenu des pages liminaires
+\renewcommand{\BXresume}{La création de paires électron-positron par collision de deux photons réels (processus Breit-Wheeler linéaire) est un des processus de base de l'électrodynamique quantique, et est supposé sous-tendre un large éventail de phénomènes astrophysiques des hautes énergies, tels que l'opacité de l'Univers aux photons TeV ou la production de plasmas de paires au voisinage d'objets compacts (AGN, pulsars). 
+
+Cependant, ce processus n'a jusqu'à présent jamais été directement observé en laboratoire depuis sa prédiction en 1934, et ce principalement à cause de l'absence de sources de photons d'énergie autour du MeV de suffisamment haut flux. Grâce au développement continu des systèmes laser de haute puissance et de haute intensité, la production de telles sources de photons devient toutefois désormais envisageable. Malgré la diversité des approches possibles pour la génération de photons énergétiques par laser, de précédentes estimations semblent indiquer que les sources produites : par rayonnement de freinage d'électrons dans la matière (Bremsstrahlung), ou via les processus Compton inverse linéaire ou Compton inverse multi-photon (parfois appelé synchrotron-like), soient des candidates parmi les plus crédibles pour la production de paires électron-positron par collision de deux photons réels. L'interaction de ces photons multi-MeV avec de la matière peut toutefois aussi créer d'autres paires électron-positrons, qui pourraient constituer une source de bruit pour la détection de ce processus. 
+
+L'objectif de cette thèse est d'optimiser la production de photons d'énergies autour du MeV générés lors de l'interaction d'un laser avec différent types de cibles (cibles solides simples ou structurées) afin de préparer des expériences de collision de photons sur des installations laser existantes ou en cours de construction. 
+Un modèle semi-analytique permet tout d'abord d'optimiser la production de paires électron-positron par le processus Breit-Wheeler linéaire en fonction des paramètres des sources de photons. En particulier il est montré que, pour des sources de photons produits par Bremsstrahlung, les installations laser existantes permettent d'ores et déjà d'atteindre les distributions en énergies optimales, permettant ainsi d'envisager de telles expériences à haut taux de répétition. 
+Cette étude est complétée par des simulations numériques permettant de modéliser l'accélération d'électrons lors de l'interaction du laser avec des cibles structurées (via un code Particle-In-Cell), la génération des photons gamma lors de la propagation d'électrons dans la matière (via un code Monte Carlo) ainsi que la création de paires électron-positron lors de la collision de ces photons gamma (via le code TrILEns). 
+Ces développements pourraient alors servir de base à la préparation de futures expériences sur des installations laser actuelles.}
+
+\renewcommand{\BXtitle}{Gamma-ray production in laser-matter interaction and electron-positron pair creation by photon-photon collisions.}
+
+\renewcommand{\BXabstract}{Electron-positron pair creation by the mean of two real photon collision (linear Breit-Wheeler process) is one of the most basic quantum electrodynamics process, and is believed to underlie a large amount of high energy astrophysical phenomena, such as the Universe opacity to TeV photons or the production of pair plasmas near compact objects (AGN, pulsars). 
+
+However, this process has never been directly observed in the laboratory since its prediction in 1934, mainly because of the absence of high flux MeV-range photon sources. Due to the continuous development of high-power and high-intensity laser systems, the production of such photon sources become however conceivable. Despite the diversity of methods to produce energetic photons by lasers, previous estimates seems to show that the radiation sources produced whether by the slowing-down of electrons in matter (Bremsstrahlung), by the linear inverse Compton scattering process, or by the multi-photon inverse Compton scattering process (sometimes called synchrotron-like) are among the most credible sources for the electron-positron pair production by two real photon collisions. The interaction of such multi-MeV photons with matter could however creates other electron-positron pairs, which could constitute a background noise for the detection of this process. 
+
+The goal of this thesis is to optimize the production of MeV-range gamma photons by the mean of the interaction of a laser with various kind of targets (simple or structured solid targets) in order to prepare photon-photon collision experiments on existing or currently building laser systems. A semi-analytical model allow firstly to optimize linear Breit-Wheeler pair production in term of the photons sources parameters. Particularly it is shown that, concerning Bremsstrahlung photon sources, the current laser systems already permit to reach the optimum photon energy distributions, opening the possibility to design such experiments at high repetition rate. This study is completed with numerical simulations modeling the electron acceleration in the laser-target interaction (via a Particle-In-Cell code), the gamma photon generation by the electron propagation in matter (via a Monte Carlo code) and the electron-positron pair production in photon-photon collisions (via the TrILEns code). These findings could then be used as a basis to design such experiments on existing or currently building laser systems.}
+\renewcommand{\BXkeywords}{Gamma Photon, Laser-Plasma Interaction, Particle Physics, Nano-wires, Bremsstrahlung, Quantum Electrodynamics}
+\renewcommand{\BXmotscles}{Photon Gamma, Interaction Laser-Plasma, Physique des Particules, Nano-fils, Bremsstrahlung, Électrodynamique Quantique}
+\renewcommand{\BXlabo}{Centre Lasers Intenses et Applications (C.E.L.I.A.), 43 rue Pierre Noailles, domaine du Haut Carré, 33400 TALENCE.}
+
+% Nom de l'auteur et titre, tels qu'apparaissant dans en pied de page.
+\renewcommand{\BXnomcourt}{\BXnom}
+\renewcommand{\BXsujetcourt}{Production de photons $\gamma$ par laser et création de paires $e^- e^+$}
+
+\author{\BXnom}
+\title{\BXsujet}
+\hypersetup{pdfauthor={\BXnom}}
+\hypersetup{pdftitle={\BXsujet}}
+
+%%%
+
+\begin{document}
+%% Pages liminaires
+\frontmatter
+
+\BXcouverture
+
+\chapter*{Remerciements}
+Merci tout d'abord à ma famille et à mes potes (qui se reconnaîtront), pour leur présence et leur soutien pendant ces longues années d'études, et en particulier à mes parents qui m'ont donné le goût de la curiosité et de la persévérance. Rien n'aurait été possible sans vous.
+
+\vspace{.3cm}
+
+Merci ensuite à mes deux directeurs de thèse Xavier Ribeyre et Emmanuel d'Humières pour leur confiance et leur support dans un contexte pas toujours simple. Vous avez, chacun à votre manière, beaucoup contribué à la réalisation de ce travail, et m'avez énormément apporté aussi bien scientifiquement qu'humainement. Je vous doit beaucoup.
+
+\vspace{.3cm}
+
+Merci encore à Caterina Riconda et Fabien Quéré pour m'avoir fait l'honneur de mettre à profit leur expertise pour la lecture critique de ce long manuscrit, ainsi que pour leurs remarques très éclairantes. Merci à Thomas Grismayer pour son engagement et les perspectives qu'il a su apporter à ces travaux, et à Fazia Hannachi pour ses commentaires très constructifs ainsi que pour m'avoir fait l'honneur de présider mon jury de soutenance. Je suis très heureux de la teneur de nos échanges, et je pense sincèrement qu'il m'aurait été très difficile d'avoir meilleur jury.
+
+\vspace{.3cm}
+
+Merci aussi à toutes les personnes avec qui j'ai pu avoir le plaisir de collaborer et qui m'ont m'aidé à trouver mon chemin dans cette physique complexe, en particulier Jean-Luc, Sébastien, Dimitri, Julien, Pierre et Livia. Merci aux équipes de développement de Smilei et Geant4, à l'écosystème Python, à Gitlab, Zoom, Sci-Hub et Free wifi pour le soutien logistique tout au long de cette thèse et pendant les confinements.
+Merci aussi à toutes celles et ceux qui ont pu contribuer de prêt ou de loin à rendre ce travail possible, en particulier à Sonia, Céline, Sophie, Gaëtan, Richard et Rachel. Merci aux financements du CEA CESTA ainsi que de l'ANR TULIMA (ANR-17-CE30-0033-01) et de l'AFOSR (FA9550-17-1-0382).
+
+\vspace{.3cm}
+
+Merci enfin à Erwan le Blanc, à Paul le chauve chevelu et Paul le chevelu chauve, à Ju l'ancien, Vic, Thib, Simon, Dimitri, Guilhem, Arthur, toute la team \textit{\#JePartPasTard}, et tous et toutes les autres avec qui j'ai pu échanger lors de discussion à caractère plus ou moins scientifique (plutôt moins que plus), pour tous ces bons moments passés lors de ces (un peu plus de) trois années de thèse. On se reverra !
+
+\newpage
+
+\vspace*{\stretch{1}}
+\begin{flushright}
+    "\textit{It is also hopeless to try to observe the pair formation in laboratory \\experiments with two beams of x-rays or $\gamma$-rays meeting each other \\on account of the smallness of} [the pair production cross section] \\\textit{and the insufficiently large available densities of} [light] \textit{quanta.}"
+
+    G. Breit \& J. A. Wheeler, 1934.
+\end{flushright} 
+\vspace*{\stretch{1}}
+
+\newpage
+
+
+% Profondeur de la table des matières (défaut 3)
+% (0=chapitres, 1=sections, 2=sous-sections, 3=sous-sous-sections…)
+\setcounter{tocdepth}{2}
+\dominitoc
+\adjustmtc % https://tex.stackexchange.com/questions/291743/minitoc-of-wrong-chapter
+\tableofcontents
+
+%% Contenu du document
+\mainmatter
+%\dominitoc
+\setcounter{minitocdepth}{3}
+
+\uchapter{Introduction}
+\input{0-introduction}
+
+\part{Contexte théorique}
+\chapter{Interaction entre particules}
+\label{chap:1-particules}
+\input{1-particules}
+
+\chapter{Interaction laser-plasma relativiste}
+\label{chap:2-laser}
+\input{2-laser}
+
+\part{Méthodes}
+\chapter{Considérations expérimentales}
+\label{chap:3-methodes_exp}
+\input{3-experience}
+
+\chapter{Présentation de la chaîne de simulations}
+\label{chap:4-methodes_simu}
+\input{4-simulation}
+
+\part{Résultats}
+\chapter{Effets de la distribution en énergie des photons sur la création de paires électron-positron}
+\label{chap:5-opti_theorique}
+\input{5-opti_theorique}
+
+\chapter{Collision de faisceaux de photons produits par des lasers d'énergies de l'ordre du Joule}
+\label{chap:6-opti_numerique}
+\input{6-opti_numerique}
+
+\part{Conclusion et annexes}
+\uchapter{Conclusion et perspectives}
+\input{7-conclusion}
+
+%% Annexes
+\appendix
+%\uchapter{Annexes}
+\input{8-annexes}
+
+%% Chapitres non-numérotés (biblio, glossaire, etc.)
+\backmatter
+\nocite{*}
+\input{9-glossaire-publi}
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\newpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
+
+\thispagestyle{empty}
+
+\noindent\textbf{Titre :} Production de photons gamma lors de l'interaction laser-matière et création de paires électron-positron par collision de photons
+
+\vspace{.3cm}
+
+\noindent\textbf{Résumé :} La création de paires électron-positron par collision de deux photons réels (processus Breit-Wheeler linéaire) est un des processus de base de l'électrodynamique quantique, et est supposé sous-tendre un large éventail de phénomènes astrophysiques des hautes énergies, tels que l'opacité de l'Univers aux photons TeV ou la production de plasmas de paires au voisinage d'objets compacts (AGN, pulsars). 
+
+\vspace{.1cm}
+
+\noindent Cependant, ce processus n'a jusqu'à présent jamais été directement observé en laboratoire depuis sa prédiction en 1934, et ce principalement à cause de l'absence de sources de photons d'énergie autour du MeV de suffisamment haut flux. Grâce au développement continu des systèmes laser de haute puissance et de haute intensité, la production de telles sources de photons devient toutefois désormais envisageable. Malgré la diversité des approches possibles pour la génération de photons énergétiques par laser, de précédentes estimations semblent indiquer que les sources produites : par rayonnement de freinage d'électrons dans la matière (Bremsstrahlung), ou via les processus Compton inverse linéaire ou Compton inverse multi-photon (parfois appelé synchrotron-like), soient des candidates parmi les plus crédibles pour la production de paires électron-positron par collision de deux photons réels. L'interaction de ces photons multi-MeV avec de la matière peut toutefois aussi créer d'autres paires électron-positrons, qui pourraient constituer une source de bruit pour la détection de ce processus. 
+
+\vspace{.1cm}
+
+\noindent L'objectif de cette thèse est d'optimiser la production de photons d'énergies autour du MeV générés lors de l'interaction d'un laser avec différent types de cibles (cibles solides simples ou structurées) afin de préparer des expériences de collision de photons sur des installations laser existantes ou en cours de construction. 
+Un modèle semi-analytique permet tout d'abord d'optimiser la production de paires électron-positron par le processus Breit-Wheeler linéaire en fonction des paramètres des sources de photons. En particulier il est montré que, pour des sources de photons produits par Bremsstrahlung, les installations laser existantes permettent d'ores et déjà d'atteindre les distributions en énergies optimales, permettant ainsi d'envisager de telles expériences à haut taux de répétition. 
+Cette étude est complétée par des simulations numériques permettant de modéliser l'accélération d'électrons lors de l'interaction du laser avec des cibles structurées (via un code Particle-In-Cell), la génération des photons gamma lors de la propagation d'électrons dans la matière (via un code Monte Carlo) ainsi que la création de paires électron-positron lors de la collision de ces photons gamma (via le code TrILEns). 
+Ces développements pourraient alors servir de base à la préparation de futures expériences sur des installations laser actuelles.
+
+\vspace{.3cm}
+
+\noindent\textbf{Mots clés :} Photon Gamma, Interaction Laser-Plasma, Physique des Particules, Nano-fils, Bremsstrahlung, Électrodynamique Quantique
+
+\vspace{.3cm}
+
+\noindent\textbf{Laboratoire d'accueil :} Centre Lasers Intenses et Applications (C.E.L.I.A.), 43 rue Pierre Noailles, domaine du Haut Carré, 33400 TALENCE.
+
+\end{document}

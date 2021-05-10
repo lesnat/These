@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="TrILEns_collision_detection.svg"
+   inkscape:export-filename="TrILEns_collision_detection.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="581.79583"
+     inkscape:cy="517.17602"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="1280"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#008000;stroke-width:1.15423882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect814"
+       width="38.53326"
+       height="38.53326"
+       x="143.56244"
+       y="114.37496" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="177.27066"
+       y="109.93956"
+       id="text818"><tspan
+         sodipodi:role="line"
+         id="tspan816"
+         x="177.27066"
+         y="109.93956"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';fill:#008000;stroke-width:0.26458332">(x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64.99999762%;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#008000"
+   id="tspan824">B2</tspan>, y<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:64.99999762%;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#008000"
+   id="tspan822">B2</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#008000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="130.25696"
+       y="159.92827"
+       id="text818-3"><tspan
+         sodipodi:role="line"
+         id="tspan816-6"
+         x="130.25696"
+         y="159.92827"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';fill:#008000;stroke-width:0.26458332">(x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#008000;stroke-width:0.26458332"
+   id="tspan824-7">B1</tspan>, y<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#008000;stroke-width:0.26458332"
+   id="tspan822-5">B1</tspan>)</tspan></text>
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.98437488;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path892"
+       cx="143.48491"
+       cy="152.964"
+       r="1.984375" />
+    <circle
+       style="opacity:1;fill:#008000;fill-opacity:1;stroke:none;stroke-width:1.98437488;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path892-3"
+       cx="182.10558"
+       cy="114.29726"
+       r="1.984375" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#0000ff;stroke-width:1.15423882;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect814-6"
+       width="38.533264"
+       height="38.533264"
+       x="121.63074"
+       y="134.48924" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="155.33878"
+       y="130.05385"
+       id="text818-0"><tspan
+         sodipodi:role="line"
+         id="tspan816-62"
+         x="155.33878"
+         y="130.05385"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';fill:#0000ff;stroke-width:0.26458332">(x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#0000ff;stroke-width:0.26458332"
+   id="tspan824-6">A2</tspan>, y<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#0000ff;stroke-width:0.26458332"
+   id="tspan822-1">A2</tspan>)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="108.3251"
+       y="180.04236"
+       id="text818-3-8"><tspan
+         sodipodi:role="line"
+         id="tspan816-6-7"
+         x="108.3251"
+         y="180.04236"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';fill:#0000ff;stroke-width:0.26458332">(x<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#0000ff;stroke-width:0.26458332"
+   id="tspan824-7-9">A1</tspan>, y<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.58611059px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';baseline-shift:sub;fill:#0000ff;stroke-width:0.26458332"
+   id="tspan822-5-2">A1</tspan>)</tspan></text>
+    <circle
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.98437488;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path892-0"
+       cx="121.55322"
+       cy="173.07809"
+       r="1.984375" />
+    <circle
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:none;stroke-width:1.98437488;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path892-3-2"
+       cx="160.17369"
+       cy="134.41147"
+       r="1.984375" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect837"
+       width="0.37797621"
+       height="26.458332"
+       x="287.63986"
+       y="123.50893" />
+    <rect
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#e6e6e6;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect837-3"
+       width="0.37797621"
+       height="26.458334"
+       x="9.6383924"
+       y="128.42262" />
+  </g>
+</svg>

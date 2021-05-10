@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="297mm"
+   height="210mm"
+   viewBox="0 0 297 210"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="diffusion_electron-laser.svg"
+   inkscape:export-filename="diffusion_electron-laser.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1505">
+      <stop
+         style="stop-color:#999999;stop-opacity:1"
+         offset="0"
+         id="stop1501" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop1503" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1505"
+       id="radialGradient1509"
+       cx="48.827538"
+       cy="76.239311"
+       fx="48.827538"
+       fy="76.239311"
+       r="91.02771"
+       gradientTransform="matrix(-4.7966329e-8,0.84560693,-1.9906987,-1.1292068e-7,200.59704,86.500938)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="555.58586"
+     inkscape:cy="409.27667"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="64.255954,114.52678"
+       orientation="1,0"
+       id="guide1538"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="122.94399,153.94724"
+       orientation="0,1"
+       id="guide1540"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="114.9259,131.4966"
+       orientation="1,0"
+       id="guide1542"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="175.86335,132.83295"
+       orientation="1,0"
+       id="guide1544"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="124.28033,132.76614"
+       orientation="0,1"
+       id="guide891"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="136.5439,107.53422"
+       orientation="0,1"
+       id="guide893"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-87)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="61.471989"
+       y="246.48607"
+       id="text1635"><tspan
+         sodipodi:role="line"
+         id="tspan1633"
+         x="61.471989"
+         y="252.04231"
+         style="stroke-width:0.26458332" /></text>
+    <rect
+       style="opacity:1;fill:#666666;fill-opacity:0.40064105;stroke:none;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-3-0-7-5"
+       width="60.402924"
+       height="25.657875"
+       x="48.827526"
+       y="127.78983" />
+    <g
+       id="g1404"
+       style="fill:#008000">
+      <g
+         id="g1499"
+         style="fill-opacity:1;fill:url(#radialGradient1509)">
+        <rect
+           style="opacity:0.77600002;fill:url(#radialGradient1509);fill-opacity:1;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+           id="rect1162-3-3"
+           width="60.40292"
+           height="25.657875"
+           x="48.827538"
+           y="127.78983" />
+        <rect
+           style="opacity:0.77600002;fill:url(#radialGradient1509);fill-opacity:1;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+           id="rect1162-2-6-6"
+           width="60.402924"
+           height="25.657875"
+           x="109.23045"
+           y="127.78983" />
+        <rect
+           style="opacity:0.77600002;fill:url(#radialGradient1509);fill-opacity:1;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+           id="rect1162-0-7-7"
+           width="60.402924"
+           height="25.657875"
+           x="169.63336"
+           y="127.78983" />
+        <rect
+           style="opacity:0.77600002;fill:url(#radialGradient1509);fill-opacity:1;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+           id="rect1162-6-5-5"
+           width="60.402924"
+           height="25.657875"
+           x="48.827538"
+           y="153.44772" />
+        <rect
+           style="opacity:0.77600002;fill:url(#radialGradient1509);fill-opacity:1;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+           id="rect1162-5-5-5"
+           width="60.402924"
+           height="25.657875"
+           x="48.827553"
+           y="179.10561" />
+      </g>
+    </g>
+    <rect
+       style="opacity:1;fill:#5f8dd3;fill-opacity:0.51923078;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-62-6"
+       width="60.402924"
+       height="25.657875"
+       x="109.23045"
+       y="153.44772" />
+    <rect
+       style="opacity:1;fill:#5f8dd3;fill-opacity:0.51923078;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-7-9-2"
+       width="60.402924"
+       height="25.657875"
+       x="169.63336"
+       y="153.44769" />
+    <rect
+       style="opacity:1;fill:#ff7e29;fill-opacity:0.40064102;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-69-7-2"
+       width="60.402924"
+       height="25.657875"
+       x="109.23048"
+       y="179.10561" />
+    <rect
+       style="opacity:1;fill:#ff7e29;fill-opacity:0.40064102;stroke:#000000;stroke-width:0.84666669;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-3-0-7"
+       width="60.402924"
+       height="25.657875"
+       x="169.63338"
+       y="179.10559" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.79374999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 109.23045,153.4477 48.827544,127.78982"
+       id="path1248-9-0"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="107.96902"
+       y="133.18765"
+       id="text1252-3-9"><tspan
+         sodipodi:role="line"
+         x="107.96902"
+         y="133.18765"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29166651px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:end;text-anchor:end;stroke-width:0.26458332"
+         id="tspan1238">Paramètre relativiste</tspan><tspan
+         sodipodi:role="line"
+         x="107.96902"
+         y="141.12515"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29166651px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:end;text-anchor:end;stroke-width:0.26458332"
+         id="tspan1242">du laser</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="50.996742"
+       y="143.10107"
+       id="text1252-7-6-0"><tspan
+         sodipodi:role="line"
+         x="50.996742"
+         y="143.10107"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29166651px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1254-5-2-6">Énergie</tspan><tspan
+         sodipodi:role="line"
+         x="50.996742"
+         y="151.03857"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5.29166651px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1279-6-2">du photon diffusé*</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="124.57014"
+       y="142.22127"
+       id="text1283-1-6"><tspan
+         sodipodi:role="line"
+         id="tspan1281-8-1"
+         x="124.57014"
+         y="142.22127"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';stroke-width:0.26458332">a<tspan
+   style="font-size:4.58611059px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1317-7-8">0</tspan> ≪ 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="189.61969"
+       y="142.0298"
+       id="text1283-2-0-2"><tspan
+         sodipodi:role="line"
+         id="tspan1281-5-2-0"
+         x="189.61969"
+         y="142.0298"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';stroke-width:0.26458332">a<tspan
+   style="font-size:4.58611059px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1317-4-3-2">0</tspan> ≳ 1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="63.531673"
+       y="168.12213"
+       id="text1283-4-9-5"><tspan
+         sodipodi:role="line"
+         id="tspan1281-3-2-9"
+         x="63.531673"
+         y="168.12213"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';stroke-width:0.26458332">E<tspan
+   style="font-size:4.58611059px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1317-0-2-2">ɣ</tspan>*≪ m<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan902">e</tspan>c<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan900">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="63.899525"
+       y="194.07092"
+       id="text1283-4-8-4-9-1"><tspan
+         sodipodi:role="line"
+         x="63.899525"
+         y="194.07092"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';stroke-width:0.26458332"
+         id="tspan1438-8-5-4">E<tspan
+   style="font-size:4.58611059px;baseline-shift:sub;stroke-width:0.26458332"
+   id="tspan1440-9-0-5">ɣ</tspan>* ≳ m<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan898">e</tspan>c<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan896">2</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="139.19899"
+       y="164.29533"
+       id="text1283-6-6-3"><tspan
+         sodipodi:role="line"
+         id="tspan1281-6-1-6"
+         x="139.19899"
+         y="164.29533"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332">Thomson inverse</tspan><tspan
+         sodipodi:role="line"
+         x="139.19899"
+         y="172.23283"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1230">linéaire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="200.67668"
+       y="164.13651"
+       id="text1283-6-4-0-1"><tspan
+         sodipodi:role="line"
+         id="tspan1281-6-8-6-0"
+         x="200.67668"
+         y="164.13651"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332">Thomson inverse</tspan><tspan
+         sodipodi:role="line"
+         x="200.67668"
+         y="172.07401"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1232">multiphoton</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="138.9566"
+       y="189.45197"
+       id="text1283-6-4-7-2-1-0"><tspan
+         sodipodi:role="line"
+         x="138.9566"
+         y="189.45197"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1538-7-7-5-6">Compton inverse</tspan><tspan
+         sodipodi:role="line"
+         x="138.9566"
+         y="197.38947"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1224">linéaire</tspan><tspan
+         sodipodi:role="line"
+         x="138.9566"
+         y="205.32697"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1226" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="200.43999"
+       y="189.61681"
+       id="text1283-6-4-2-1-6-4"><tspan
+         sodipodi:role="line"
+         id="tspan1281-6-8-2-0-5-7"
+         x="200.43999"
+         y="189.61681"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332">Compton inverse</tspan><tspan
+         sodipodi:role="line"
+         x="200.43999"
+         y="197.55431"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05555534px;line-height:1;font-family:Carlito;-inkscape-font-specification:'Carlito Bold';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1222">multiphoton</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="137.47362"
+       y="125.35754"
+       id="text1639-9-5"><tspan
+         sodipodi:role="line"
+         x="137.47362"
+         y="125.35754"
+         style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Carlito;-inkscape-font-specification:'Carlito Bold Italic';text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan1262">Diffusion de photons dans l'interaction laser-électron (E<tspan
+   style="font-size:64.99999762%;text-align:center;baseline-shift:sub;text-anchor:middle;-inkscape-font-specification:'Carlito Bold Italic';font-family:Carlito;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan1264">e</tspan>≳m<tspan
+   style="font-size:64.99999762%;text-align:center;baseline-shift:sub;text-anchor:middle;-inkscape-font-specification:'Carlito Bold Italic';font-family:Carlito;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan1266">e</tspan>c<tspan
+   style="font-size:64.99999762%;text-align:center;baseline-shift:super;text-anchor:middle;-inkscape-font-specification:'Carlito Bold Italic';font-family:Carlito;font-weight:bold;font-style:italic;font-stretch:normal;font-variant:normal"
+   id="tspan1268">2</tspan>).</tspan></text>
+    <rect
+       style="opacity:1;fill:#5f8dd3;fill-opacity:0.51923078;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-7-9-2-4"
+       width="10.305172"
+       height="6.4859185"
+       x="48.688797"
+       y="207.37268" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="60.992958"
+       y="212.86858"
+       id="text1639-9-5-3"><tspan
+         sodipodi:role="line"
+         x="60.992958"
+         y="212.86858"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Carlito;-inkscape-font-specification:'Carlito Italic';stroke-width:0.26458332"
+         id="tspan1262-8">Traitement classique possible</tspan></text>
+    <rect
+       style="opacity:1;fill:#ff7e29;fill-opacity:0.40064102;stroke:#000000;stroke-width:0.79374999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.98086123;paint-order:normal"
+       id="rect1162-54-7-9-2-4-8"
+       width="10.305172"
+       height="6.4859185"
+       x="157.16759"
+       y="207.37268" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="169.47134"
+       y="212.86858"
+       id="text1639-9-5-3-4"><tspan
+         sodipodi:role="line"
+         x="169.47134"
+         y="212.86858"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Carlito;-inkscape-font-specification:'Carlito Italic';stroke-width:0.26458332"
+         id="tspan1262-8-3">Traitement quantique</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:1.25;font-family:Carlito;-inkscape-font-specification:Carlito;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-204.1837"
+       y="46.419029"
+       id="text1639-9-5-2"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-204.1837"
+         y="46.419029"
+         style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;font-family:Carlito;-inkscape-font-specification:'Carlito Italic';text-align:start;text-anchor:start;stroke-width:0.26458332"
+         id="tspan1262-6">* Dans le référentiel de l'électron.</tspan></text>
+  </g>
+</svg>
